@@ -1,0 +1,12 @@
+name: Merge
+on: [merge-request]
+Jobs:
+  Test:
+  runs-on: ${{matrix.os}}
+   Strategy: 
+    matrix:
+     os: [ubuntu-latest, windows-latest, macos-latest]
+   steps:
+     uses: actions/checkout@v2
+     -run: echo "The job was automatically triggered by a ${{github.event_name}} event."
+     -run: python main.py
