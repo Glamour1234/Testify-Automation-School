@@ -1,4 +1,4 @@
-# Testify-Automation-School-CI-CD-Pipeline
+# Testify-Automation-School
 
 # Table of Content
 -Installation
