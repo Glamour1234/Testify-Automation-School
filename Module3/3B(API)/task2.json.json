@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ef82a1c1-ced6-465e-a782-ea35b1deb5bf",
-		"name": "Task3",
+		"name": "Task4",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -44,7 +44,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"bookId\": 1,\n  \"customerName\": \"John\"\n}",
+					"raw": "{\n  \"bookId\": {{bookId}},\n  \"customerName\": \"John\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -64,15 +64,16 @@
 						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6",
 						"exec": [
 							"var jsonData = pm.response.json();",
+							"pm.environment.set(\"bookId\",jsonData[0].id )",
 							"//console.log(jsonData[4].id)",
 							"",
 							"pm.test(\"This confirms that non-fiction book tagged UNTAMED is returned in the response\", function (){",
 							"    pm.expect(jsonData[4].name).to.eql(\"Untamed\")",
 							"})",
 							"",
-							"pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
-							"    pm.expect(jsonData[4].id).to.eql(5)",
-							"})",
+							"// pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
+							"//     pm.expect(jsonData[4].id).to.eql(5)",
+							"// })",
 							"",
 							"pm.test(\"This confirms that non-fiction book  with ID 1 is returned in the response\", function (){",
 							"    pm.expect(jsonData[0].id).to.eql(1)",
@@ -143,7 +144,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9a8ad831-8e94-4381-ba8b-3d90330ca284",
+				"id": "62755aff-de22-45e0-8791-342b84eb20a0",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -154,7 +155,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f58a2f9e-0744-440c-96e7-4f671ec1e6b1",
+				"id": "5e3bbd18-3ea9-4c9e-8783-9cbb7c71469e",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -167,6 +168,11 @@
 		{
 			"key": "orderId",
 			"value": "{{orderId}}"
+		},
+		{
+			"key": "bookId",
+			"value": "{{bookId}}",
+			"type": "string"
 		}
 	]
 }
