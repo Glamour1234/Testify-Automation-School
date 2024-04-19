@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ef82a1c1-ced6-465e-a782-ea35b1deb5bf",
-		"name": "Task2",
+		"name": "Task3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -14,9 +14,9 @@
 						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75",
 						"exec": [
 							"var jsonData = pm.response.json();",
-							"console.log(jsonData.id)",
+							"console.log(jsonData.orderId)",
 							"",
-							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.id)"
+							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)"
 						],
 						"type": "text/javascript",
 						"packages": {}
