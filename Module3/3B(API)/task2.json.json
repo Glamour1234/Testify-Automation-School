@@ -51,11 +51,21 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6",
 						"exec": [
-							""
+							"var jsonData = pm.response.json();",
+							"//console.log(jsonData[4].id)",
+							"",
+							"pm.test(\"This confirms that non-fiction book tagged UNTAMED is returned in the response\", function (){",
+							"    pm.expect(jsonData[4].name).to.eql(\"Untamed\")",
+							"})",
+							"",
+							"pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
+							"    pm.expect(jsonData[4].id).to.eql(\"untamed\")",
+							"})"
 						],
 						"type": "text/javascript",
-						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6"
+						"packages": {}
 					}
 				}
 			],
