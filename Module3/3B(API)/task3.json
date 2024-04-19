@@ -72,6 +72,11 @@
 							"",
 							"pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
 							"    pm.expect(jsonData[4].id).to.eql(5)",
+							"})",
+							"",
+							"pm.test(\"This confirms that non-fiction book tagged 'The Russian' is returned in the response\", function (){",
+							"    pm.expect(jsonData[0].name).to.eql(\"The Russian\")",
+							"",
 							"})"
 						],
 						"type": "text/javascript",
