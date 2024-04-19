@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "ef82a1c1-ced6-465e-a782-ea35b1deb5bf",
+		"name": "Task3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Place a book order",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"console.log(jsonData.orderId)",
+							"",
+							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "6309c2bd-44f0-4a0b-9781-49a827acc2a0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "3b8739c6ba88eeeb856535bc0a153981a7130a651791b0dcdeb6c0df01cc5cd7"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"bookId\": 1,\n  \"customerName\": \"John\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseUrl}}/orders"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"//console.log(jsonData[4].id)",
+							"",
+							"pm.test(\"This confirms that non-fiction book tagged UNTAMED is returned in the response\", function (){",
+							"    pm.expect(jsonData[4].name).to.eql(\"Untamed\")",
+							"})",
+							"",
+							"pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
+							"    pm.expect(jsonData[4].id).to.eql(5)",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "93b24154-cd39-4f1e-ae71-788670dca1cb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}/books"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete an order",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "47b06fbd-1e9d-425b-9caf-0f0156e55927",
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {",
+							"    pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "21fc1b72-1df2-4cba-ad2d-5241931908d8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "3b8739c6ba88eeeb856535bc0a153981a7130a651791b0dcdeb6c0df01cc5cd7"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseUrl}}/orders/{{orderId}}"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9a8ad831-8e94-4381-ba8b-3d90330ca284",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f58a2f9e-0744-440c-96e7-4f671ec1e6b1",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "orderId",
+			"value": "{{orderId}}"
+		}
+	]
+}
