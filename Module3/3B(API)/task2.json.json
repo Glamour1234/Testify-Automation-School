@@ -11,11 +11,12 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75",
 						"exec": [
 							""
 						],
 						"type": "text/javascript",
-						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75"
+						"packages": {}
 					}
 				}
 			],
@@ -24,6 +25,12 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "3b8739c6ba88eeeb856535bc0a153981a7130a651791b0dcdeb6c0df01cc5cd7"
+					}
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -41,7 +48,7 @@
 						}
 					}
 				},
-				"url": "https://simple-books-api.glitch.me/orders"
+				"url": "{{baseUrl}}/orders"
 			},
 			"response": []
 		},
