@@ -83,7 +83,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://simple-books-api.glitch.me/books"
+				"url": "{{baseUrl}}/books"
 			},
 			"response": []
 		},
