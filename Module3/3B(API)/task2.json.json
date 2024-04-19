@@ -13,7 +13,7 @@
 					"script": {
 						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75",
 						"exec": [
-							""
+							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.id)"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -41,7 +41,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n  \"bookId\": 1,\n  \"customerName\": \"John\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -93,14 +93,14 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "47b06fbd-1e9d-425b-9caf-0f0156e55927",
 						"exec": [
 							"pm.test(\"Status code is 204\", function () {",
 							"    pm.response.to.have.status(204);",
 							"});"
 						],
 						"type": "text/javascript",
-						"packages": {},
-						"id": "47b06fbd-1e9d-425b-9caf-0f0156e55927"
+						"packages": {}
 					}
 				}
 			],
@@ -126,15 +126,39 @@
 						}
 					}
 				},
-				"url": "https://simple-books-api.glitch.me/orders/oakk4MnEjkGwPfDJOQw8X"
+				"url": "{{baseUrl}}/orders/{{orderId}}"
 			},
 			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e46b22fd-a3d2-469c-a1b0-c12838409873",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "bf335b83-d334-4229-9ca5-33a94bddf97d",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
 		}
 	],
 	"variable": [
 		{
 			"key": "orderId",
-			"value": ""
+			"value": "v21K88YqLMwYMLCMcA-U1\""
 		}
 	]
 }
