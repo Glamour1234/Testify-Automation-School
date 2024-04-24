@@ -126,7 +126,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "3b8739c6ba88eeeb856535bc0a153981a7130a651791b0dcdeb6c0df01cc5cd7"
+						"token": "7199cd9802cddef8e87bf796eea4f8d62e6f3bda9ba0559973529b77d6cbe949"
 					}
 				},
 				"method": "DELETE",
