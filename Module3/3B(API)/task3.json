@@ -139,7 +139,7 @@
 						}
 					}
 				},
-				"url": "{{baseUrl}}/orders/{{orderId}}"
+				"url": "https://simple-books-api.glitch.me/orders/{{orderId}}"
 			},
 			"response": []
 		}
