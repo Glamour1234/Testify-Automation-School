@@ -55,7 +55,7 @@
 						}
 					}
 				},
-				"url": "https://simple-books-api.glitch.me/orders"
+				"url": "https://simple-books-api.glitch.me/orders/"
 			},
 			"response": []
 		},
