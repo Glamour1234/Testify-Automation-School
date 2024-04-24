@@ -156,7 +156,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "62755aff-de22-45e0-8791-342b84eb20a0",
+				"id": "1f295f5f-e1e2-4e55-ab7c-78e4c829bf2c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -167,7 +167,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "5e3bbd18-3ea9-4c9e-8783-9cbb7c71469e",
+				"id": "f061fecd-8e5a-4d0e-80ed-c32e78fdeba5",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -184,6 +184,11 @@
 		{
 			"key": "bookId",
 			"value": "{{bookId}}",
+			"type": "string"
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://simple-books-api.glitch.me",
 			"type": "string"
 		}
 	]
