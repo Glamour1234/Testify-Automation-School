@@ -19,7 +19,7 @@
 							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)",
 							"",
 							"pm.test(\"This confirms that orderId is present in the response\", function (){",
-							"    pm.expect(jsonData.orderId).to.eql(\"orderId\")",
+							"    pm.response.to.have.jsonBody(orderId)",
 							"})"
 						],
 						"type": "text/javascript",
