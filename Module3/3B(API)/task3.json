@@ -20,7 +20,11 @@
 							"",
 							"pm.test(\"This confirms that orderId is present in the response\", function (){",
 							"    pm.response.to.have.jsonBody(orderId)",
-							"})"
+							"})",
+							"",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
