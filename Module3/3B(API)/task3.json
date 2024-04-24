@@ -16,7 +16,11 @@
 							"var jsonData = pm.response.json();",
 							"console.log(jsonData.orderId)",
 							"",
-							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)"
+							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)",
+							"",
+							"pm.test(\"This confirms that orderId is present in the response\", function (){",
+							"    pm.expect(jsonData.orderId).to.eql(\"orderId\")",
+							"})"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -51,7 +55,7 @@
 						}
 					}
 				},
-				"url": "{{baseUrl}}/orders"
+				"url": "https://simple-books-api.glitch.me/orders"
 			},
 			"response": []
 		},
@@ -92,7 +96,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{baseUrl}}/books"
+				"url": "https://simple-books-api.glitch.me/books"
 			},
 			"response": []
 		},
