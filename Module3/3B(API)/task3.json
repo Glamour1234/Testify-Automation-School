@@ -16,7 +16,7 @@
 							"var jsonData = pm.response.json();",
 							"console.log(jsonData.orderId)",
 							"",
-							"var orderId = pm.collectionVariables.set(\"orderId\",jsonData.orderId)",
+							"var orderId = pm.environment.set(\"orderId\",jsonData.orderId)",
 							"",
 							"pm.test(\"This confirms that orderId is present in the response\", function (){",
 							"    pm.response.to.have.jsonBody(orderId)",
@@ -149,7 +149,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1f295f5f-e1e2-4e55-ab7c-78e4c829bf2c",
+				"id": "5f6ff565-170c-4353-8fb8-61f5a01c9291",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -160,7 +160,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f061fecd-8e5a-4d0e-80ed-c32e78fdeba5",
+				"id": "3c2465f7-099a-4262-9000-219cd8916244",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -172,17 +172,24 @@
 	"variable": [
 		{
 			"key": "orderId",
-			"value": "{{orderId}}"
+			"value": "{{orderId}}",
+			"disabled": true
 		},
 		{
 			"key": "bookId",
 			"value": "{{bookId}}",
-			"type": "string"
+			"type": "string",
+			"disabled": true
 		},
 		{
 			"key": "baseUrl",
 			"value": "https://simple-books-api.glitch.me",
-			"type": "string"
+			"type": "string",
+			"disabled": true
+		},
+		{
+			"key": "orderId",
+			"value": ""
 		}
 	]
 }
