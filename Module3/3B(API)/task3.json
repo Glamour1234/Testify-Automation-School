@@ -39,18 +39,11 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "3b8739c6ba88eeeb856535bc0a153981a7130a651791b0dcdeb6c0df01cc5cd7"
+						"token": "7199cd9802cddef8e87bf796eea4f8d62e6f3bda9ba0559973529b77d6cbe949"
 					}
 				},
 				"method": "POST",
-				"header": [
-					{
-						"key": "Token",
-						"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
-						"type": "text",
-						"disabled": true
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": "{\n  \"bookId\": {{bookId}},\n  \"customerName\": \"John\"\n}",
@@ -60,7 +53,7 @@
 						}
 					}
 				},
-				"url": "https://simple-books-api.glitch.me/orders"
+				"url": "{{baseUrl}}/orders"
 			},
 			"response": []
 		},
@@ -101,7 +94,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://simple-books-api.glitch.me/books"
+				"url": "{{baseUrl}}/books"
 			},
 			"response": []
 		},
@@ -147,7 +140,7 @@
 						}
 					}
 				},
-				"url": "https://simple-books-api.glitch.me/orders/{{orderId}}"
+				"url": "{{baseUrl}}/orders/{{orderId}}"
 			},
 			"response": []
 		}
