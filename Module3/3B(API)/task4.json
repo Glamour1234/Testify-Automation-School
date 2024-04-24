@@ -47,7 +47,8 @@
 					{
 						"key": "Token",
 						"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
-						"type": "text"
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
