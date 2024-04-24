@@ -110,7 +110,12 @@
 						"exec": [
 							"pm.test(\"Status code is 204\", function () {",
 							"    pm.response.to.have.status(204);",
-							"});"
+							"});",
+							"",
+							"pm.test(\"This confirms that response body is empty\", function (){",
+							"   pm.response.to.have.jsonBody(empty)",
+							"",
+							"})"
 						],
 						"type": "text/javascript",
 						"packages": {}
