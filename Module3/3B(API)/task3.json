@@ -11,11 +11,19 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "ceb4f7ef-b053-4a0d-bb66-0d9f9d3e417b",
 						"exec": [
+							"var accessToken = pm.response.json().accessToken",
+							"pm.environment.set(\"accessToken\",accessToken )",
+							"",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
 							""
 						],
 						"type": "text/javascript",
-						"id": "ceb4f7ef-b053-4a0d-bb66-0d9f9d3e417b"
+						"packages": {}
 					}
 				}
 			],
@@ -28,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n   \"clientName\": \"Postman\",\n   \"clientEmail\": \"{{$randomEmail}}\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -36,6 +44,47 @@
 					}
 				},
 				"url": "https://simple-books-api.glitch.me/api-clients/"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.environment.set(\"bookId\",jsonData[0].id )",
+							"//console.log(jsonData[4].id)",
+							"",
+							"pm.test(\"This confirms that non-fiction book tagged UNTAMED is returned in the response\", function (){",
+							"    pm.expect(jsonData[4].name).to.eql(\"Untamed\")",
+							"})",
+							"",
+							"// pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
+							"//     pm.expect(jsonData[4].id).to.eql(5)",
+							"// })",
+							"",
+							"pm.test(\"This confirms that non-fiction book  with ID 1 is returned in the response\", function (){",
+							"    pm.expect(jsonData[0].id).to.eql(1)",
+							"",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "93b24154-cd39-4f1e-ae71-788670dca1cb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}/books"
 			},
 			"response": []
 		},
@@ -92,47 +141,6 @@
 			"response": []
 		},
 		{
-			"name": "Get Books",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "994618dc-4b48-41f5-ab71-02a3e1aed2c6",
-						"exec": [
-							"var jsonData = pm.response.json();",
-							"pm.environment.set(\"bookId\",jsonData[0].id )",
-							"//console.log(jsonData[4].id)",
-							"",
-							"pm.test(\"This confirms that non-fiction book tagged UNTAMED is returned in the response\", function (){",
-							"    pm.expect(jsonData[4].name).to.eql(\"Untamed\")",
-							"})",
-							"",
-							"// pm.test(\"This confirms that non-fiction book with ID 5 is returned in the response\", function (){",
-							"//     pm.expect(jsonData[4].id).to.eql(5)",
-							"// })",
-							"",
-							"pm.test(\"This confirms that non-fiction book  with ID 1 is returned in the response\", function (){",
-							"    pm.expect(jsonData[0].id).to.eql(1)",
-							"",
-							"})"
-						],
-						"type": "text/javascript",
-						"packages": {}
-					}
-				}
-			],
-			"id": "93b24154-cd39-4f1e-ae71-788670dca1cb",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{baseUrl}}/books"
-			},
-			"response": []
-		},
-		{
 			"name": "Delete an order",
 			"event": [
 				{
@@ -160,7 +168,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "7199cd9802cddef8e87bf796eea4f8d62e6f3bda9ba0559973529b77d6cbe949"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "DELETE",
