@@ -149,8 +149,8 @@
 						"id": "47b06fbd-1e9d-425b-9caf-0f0156e55927",
 						"exec": [
 							"",
-							"pm.test(\"Status code is 209\", function () {",
-							"    pm.response.to.have.status(209);",
+							"pm.test(\"Status code is 204\", function () {",
+							"    pm.response.to.have.status(204);",
 							"});",
 							"",
 							""
