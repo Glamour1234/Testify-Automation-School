@@ -6,6 +6,40 @@
 	},
 	"item": [
 		{
+			"name": "Register an API Client",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"id": "ceb4f7ef-b053-4a0d-bb66-0d9f9d3e417b"
+					}
+				}
+			],
+			"id": "6fed93b0-759e-4692-a922-20598d19935e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://simple-books-api.glitch.me/api-clients/"
+			},
+			"response": []
+		},
+		{
 			"name": "Place a book order",
 			"event": [
 				{
@@ -13,7 +47,7 @@
 					"script": {
 						"id": "2b931956-8021-44d2-a2b5-8c6e6df36c75",
 						"exec": [
-							"var jsonData = pm.response.json();",
+							"var jsonData = pm.response.json()",
 							"console.log(jsonData.orderId)",
 							"",
 							"var orderId = pm.environment.set(\"orderId\",jsonData.orderId)",
@@ -23,7 +57,7 @@
 							"})",
 							"",
 							"pm.test(\"Status code is 201\", function () {",
-							"    pm.response.to.have.status(201);",
+							"    pm.response.to.have.status(201)",
 							"});"
 						],
 						"type": "text/javascript",
@@ -39,7 +73,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "7199cd9802cddef8e87bf796eea4f8d62e6f3bda9ba0559973529b77d6cbe949"
+						"token": "{{accessToken}}"
 					}
 				},
 				"method": "POST",
