@@ -6,6 +6,44 @@
 	},
 	"item": [
 		{
+			"name": "Get Status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "01f13296-6e56-4548-b5b8-f5964807fb02",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"",
+							"pm.test(\"This confirms that message is returned in the response\", function (){",
+							"    pm.expect(jsonData.message).to.eql(\"Welcome to the Simple Books API.\")",
+							"})",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"postman.setNextRequest(\"Place a book order\")",
+							"",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "fc87eb5e-191d-4b76-8f28-5400ed5ce65a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}/"
+			},
+			"response": []
+		},
+		{
 			"name": "Register an API Client",
 			"event": [
 				{
@@ -107,7 +145,9 @@
 							"",
 							"pm.test(\"Status code is 201\", function () {",
 							"    pm.response.to.have.status(201)",
-							"});"
+							"});",
+							"",
+							"postman.setNextRequest(null)"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -149,8 +189,8 @@
 						"id": "47b06fbd-1e9d-425b-9caf-0f0156e55927",
 						"exec": [
 							"",
-							"pm.test(\"Status code is 209\", function () {",
-							"    pm.response.to.have.status(209);",
+							"pm.test(\"Status code is 204\", function () {",
+							"    pm.response.to.have.status(204);",
 							"});",
 							"",
 							""
