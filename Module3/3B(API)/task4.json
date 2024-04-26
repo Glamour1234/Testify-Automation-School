@@ -185,6 +185,32 @@
 				"url": "{{baseUrl}}/orders/{{orderId}}"
 			},
 			"response": []
+		},
+		{
+			"name": "Get Status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "01f13296-6e56-4548-b5b8-f5964807fb02",
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "fc87eb5e-191d-4b76-8f28-5400ed5ce65a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseUrl}}/"
+			},
+			"response": []
 		}
 	],
 	"event": [
