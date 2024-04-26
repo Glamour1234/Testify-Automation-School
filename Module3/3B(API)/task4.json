@@ -194,6 +194,16 @@
 					"script": {
 						"id": "01f13296-6e56-4548-b5b8-f5964807fb02",
 						"exec": [
+							"var jsonData = pm.response.json();",
+							"",
+							"pm.test(\"This confirms that message is returned in the response\", function (){",
+							"    pm.expect(jsonData.message).to.eql(\"Welcome to the Simple Books API.\")",
+							"})",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
 							""
 						],
 						"type": "text/javascript",
