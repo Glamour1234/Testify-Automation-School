@@ -1,0 +1,16 @@
+{
+  "tag": "OrderConfirmation",
+  "sender": {
+    "name": "Mary from MyShop",
+    "email": "eevwrujae@gmail.com"
+   
+  },
+  "templateName": "schemas silver partnerships Cloned payment",
+  "htmlContent": "The order n°xxxxx has been confirmed. Thanks for your purchase",
+  
+  "subject": "Thanks for your purchase !",
+  "replyTo": "support@myshop.com",
+  "toField": "{FNAME} {LNAME}",
+ 
+  "isActive": true
+}

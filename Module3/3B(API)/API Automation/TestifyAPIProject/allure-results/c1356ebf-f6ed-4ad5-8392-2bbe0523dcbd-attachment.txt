@@ -1,0 +1,16 @@
+{
+  "email": "Rhoda.Hintz94@yahoo.com",
+  "name": "Schamberger, Jast and Senger",
+  "ips": [
+    {
+      "domain": "alexander.info",
+      "ip": "90.85.218.157",
+      "weight": 50
+    },
+    {
+      "domain": "waylon.info",
+      "ip": "203.97.221.152",
+      "weight": 50
+    }
+  ]
+}

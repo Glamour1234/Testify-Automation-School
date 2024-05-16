@@ -1,0 +1,1 @@
+{"id":36,"name":"{{randomWords}}","startDate":"2023-11-10T15:43:16.587+01:00","endDate":"2024-05-10T15:43:16.587+02:00","totalBlacklisted":0,"totalSubscribers":0,"uniqueSubscribers":0,"folderId":7,"createdAt":"2024-05-10T15:43:15.000+02:00","campaignStats":[],"dynamicList":false}

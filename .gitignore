@@ -2,10 +2,17 @@
 __pycache__/
 *.py[cod]
 *$py.class
+<<<<<<< HEAD
  .DS_Store
 
+=======
+.DS_Store
+>>>>>>> 3b29261ab7bd3e59c2a2591f0daae62560ad41c9
 # C extensions
 *.so
+
+#ignore DS file
+.DS_Store
 
 # Distribution / packaging
 .Python
