@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/FirstJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/BasicArithmetic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/CondRelLogStatements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/DataTypes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/StringOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/Strings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/helloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/BasicArithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/CondRelLogStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/StringOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/helloWorld.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Module4/4A/FirstJava" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2gYrrcesRW6rLYwpR58Fk9IGF8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/mac/Documents/WORK/TESTIFY/Testify-Automation-School"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="" />
+      <created>1715885551924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715885551924</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
