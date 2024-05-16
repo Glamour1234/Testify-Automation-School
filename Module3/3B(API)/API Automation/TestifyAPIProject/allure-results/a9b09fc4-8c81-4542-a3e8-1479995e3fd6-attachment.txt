@@ -1,0 +1,9 @@
+{
+  "url": "http://requestb.in/173lyyx1",
+  "description": "experiences Bacon",
+  "events": [
+    "hardBounce",
+    "hardBounce"
+  ],
+  "domain": "example.com"
+}

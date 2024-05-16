@@ -1,0 +1,15 @@
+{
+  "customContactFilter": {
+    "actionForContacts": "subscribed",
+    
+    
+     "listId": 4
+    
+    
+  },
+  "exportAttributes": [
+    "Forward",
+    "Maryland"
+  ],
+  "notifyUrl": "http://requestb.in/173lyyx1"
+}

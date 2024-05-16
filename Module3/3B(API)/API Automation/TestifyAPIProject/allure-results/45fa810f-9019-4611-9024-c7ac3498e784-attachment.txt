@@ -1,0 +1,1 @@
+{"processes":[{"id":6,"status":"completed","name":"SEARCH_EXPORT_USERS","export_url":"https://s3.eu-west-1.amazonaws.com/api-export.sendinblue.com/upload/7599293-6637e1c257c56443a601f52c-9H0Yif.csv"},{"id":3,"status":"queued","name":"TRANS-GLOBAL-CALC"},{"id":2,"status":"queued","name":"TRANS-GLOBAL-CALC"},{"id":1,"status":"queued","name":"TRANS-GLOBAL-CALC"}],"count":4}

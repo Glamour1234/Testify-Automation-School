@@ -1,0 +1,15 @@
+{
+  "email": "Jessica.Will63@yahoo.com",
+  "includeListIds": [
+    2
+  ],
+  "redirectionUrl": "http://requestb.in/173lyyx1",
+  "templateId": 2,
+  "attributes": {
+    "FNAME": "John",
+    "LNANE": "Smith"
+  },
+  "excludeListIds": [
+    6
+  ]
+}

@@ -1,0 +1,5 @@
+iteration,collectionName,requestName,method,url,status,code,responseTime,responseSize,executed,failed,skipped,totalAssertions,executedCount,failedCount,skippedCount
+1,TAS PM course,Register an API Client,POST,https://simple-books-api.glitch.me/api-clients/,Created,201,2017,82,Status code is 201,,,1,1,0,0
+1,TAS PM course,Get Books,GET,{{baseUrl}}/books,,,,,,,,0,0,0,0
+1,TAS PM course,Place a book order,POST,{{baseUrl}}/orders,,,,,,,,0,0,0,0
+1,TAS PM course,Delete an order,DELETE,{{baseUrl}}/orders/,,,,,,Status code is 204,,1,0,1,0

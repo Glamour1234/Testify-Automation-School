@@ -1,0 +1,16 @@
+{
+    "id": "663e2460e82c9e2a200229cd",
+    "taskTypeId": "663000f10b9eac2eab56145e",
+    "name": "Task: driver 24",
+    "contactsIds": [
+        1
+    ],
+    "dealsIds": [
+        "66329b6cd8ccc2aafe6500fe"
+    ],
+    "companiesIds": [
+        "66329ce08a082c773b9dd429"
+    ],
+    "priority": false,
+    "createdAt": "2024-05-10T13:42:56.734Z"
+}
