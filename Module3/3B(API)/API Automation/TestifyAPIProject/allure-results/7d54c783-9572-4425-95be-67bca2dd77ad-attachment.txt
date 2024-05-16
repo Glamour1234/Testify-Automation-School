@@ -1,0 +1,24 @@
+{
+  "name": "Task: driver 24",
+  "taskTypeId": "663000f10b9eac2eab56145e",
+  "date": "2024-05-07T17:44:54.668Z",
+  "duration": 600000,
+  "notes": "Reduced Producer Crossing.",
+  "done": true,
+  "assignToId": "663000f069376468b27bc72e",
+  "contactsIds": [
+    1
+  ],
+  "dealsIds": [
+    "66329b6cd8ccc2aafe6500fe"
+  ],
+  "companiesIds": [
+    "66329ce08a082c773b9dd429"
+  ]
+
+
+
+
+
+
+  }

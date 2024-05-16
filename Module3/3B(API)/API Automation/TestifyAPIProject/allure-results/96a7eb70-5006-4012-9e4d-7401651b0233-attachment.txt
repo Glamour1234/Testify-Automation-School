@@ -1,0 +1,8 @@
+{
+  "companyName": "Testars Limited",
+  "email": "Mayra.Barton16@hotmail.com",
+  "firstName": "Josh",
+  "lastName": "Cruise",
+  "password": "Pa55w0rd65",
+  "language": "en"
+}

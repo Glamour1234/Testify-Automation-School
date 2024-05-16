@@ -1,0 +1,12 @@
+{
+  "text": "payment Account",
+  "contactIds": [
+    1
+  ],
+  "dealIds": [
+    "66329b6cd8ccc2aafe6500fe"
+  ],
+  "companyIds": [
+   "66329ce08a082c773b9dd429"
+  ]
+}

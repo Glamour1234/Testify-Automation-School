@@ -1,0 +1,130 @@
+{
+    "items": [
+        {
+            "id": "66329c4d90b47bf69a062681",
+            "taskTypeId": "663000f10b9eac2eab561460",
+            "name": "To do now",
+            "contactsIds": [],
+            "dealsIds": [],
+            "companiesIds": [],
+            "priority": true,
+            "createdAt": "2024-05-01T19:47:25.685Z"
+        },
+        {
+            "id": "66329c0ee3dd05403025c35c",
+            "taskTypeId": "663000f10b9eac2eab561460",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "66329c0d90b47bf69a06267f"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2024-05-01T19:46:22.060Z"
+        },
+        {
+            "id": "6639f40b9c3fcc155860d6f8",
+            "taskTypeId": "663000f10b9eac2eab56145e",
+            "name": "Task: Self-enabling Health Maldives",
+            "contactsIds": [
+                1
+            ],
+            "dealsIds": [
+                "66329b6cd8ccc2aafe6500fe"
+            ],
+            "companiesIds": [
+                "66329ce08a082c773b9dd429"
+            ],
+            "priority": false,
+            "createdAt": "2024-05-07T09:27:39.809Z"
+        },
+        {
+            "id": "6639f412d682d97c1a79c266",
+            "taskTypeId": "663000f10b9eac2eab56145e",
+            "name": "Task: Metal portal",
+            "contactsIds": [
+                1
+            ],
+            "dealsIds": [
+                "66329b6cd8ccc2aafe6500fe"
+            ],
+            "companiesIds": [
+                "66329ce08a082c773b9dd429"
+            ],
+            "priority": false,
+            "createdAt": "2024-05-07T09:27:46.256Z"
+        },
+        {
+            "id": "6639f4ef988a5b071c3c11c6",
+            "taskTypeId": "663000f10b9eac2eab56145e",
+            "name": "Task: auxiliary Virginia Rubber",
+            "contactsIds": [
+                1
+            ],
+            "dealsIds": [
+                "66329b6cd8ccc2aafe6500fe"
+            ],
+            "companiesIds": [
+                "66329ce08a082c773b9dd429"
+            ],
+            "priority": false,
+            "createdAt": "2024-05-07T09:31:27.407Z"
+        },
+        {
+            "id": "6639f50e3fa43432796f35b8",
+            "taskTypeId": "663000f10b9eac2eab56145e",
+            "name": "Task: Berkshire Dollar transform",
+            "contactsIds": [
+                1
+            ],
+            "dealsIds": [
+                "66329b6cd8ccc2aafe6500fe"
+            ],
+            "companiesIds": [
+                "66329ce08a082c773b9dd429"
+            ],
+            "priority": false,
+            "createdAt": "2024-05-07T09:31:58.368Z"
+        },
+        {
+            "id": "663e2460e82c9e2a200229cd",
+            "taskTypeId": "663000f10b9eac2eab56145e",
+            "name": "Task: driver 24",
+            "contactsIds": [
+                1
+            ],
+            "dealsIds": [
+                "66329b6cd8ccc2aafe6500fe"
+            ],
+            "companiesIds": [
+                "66329ce08a082c773b9dd429"
+            ],
+            "priority": false,
+            "createdAt": "2024-05-10T13:42:56.734Z"
+        },
+        {
+            "id": "6639f2cb8e02be20bb7dd749",
+            "taskTypeId": "663000f10b9eac2eab561460",
+            "name": "To do",
+            "contactsIds": [
+                5
+            ],
+            "dealsIds": [
+                "6638ac67df12fb0725ef91f9"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2024-05-07T09:22:19.863Z"
+        }
+    ],
+    "pager": {
+        "current": 1,
+        "limit": 50,
+        "from": 0,
+        "to": 50,
+        "count": 8,
+        "total": 8,
+        "max": 1,
+        "totalStoredResults": 8
+    }
+}

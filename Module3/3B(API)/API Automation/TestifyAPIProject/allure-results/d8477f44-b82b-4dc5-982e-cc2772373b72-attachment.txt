@@ -1,0 +1,14 @@
+{
+  "value": "NEW LIST",
+  "enumeration": [
+    {
+      "label": "Women",
+      "value": 7
+    },
+    {
+      "label": "Women",
+      "value": 7
+    }
+  ],
+  "type": "float"
+}

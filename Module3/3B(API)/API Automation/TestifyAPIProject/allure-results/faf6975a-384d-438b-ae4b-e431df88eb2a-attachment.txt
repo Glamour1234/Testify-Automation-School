@@ -1,0 +1,15 @@
+{
+    "events": [
+        "spam",
+        "opened",
+        "click",
+        "hardBounce",
+        "softBounce",
+        "unsubscribed",
+        "listAddition",
+        "delivered"
+    ],
+    "url": "https://arlie.org",
+    "description": "test for SMS",
+    "type": "marketing"
+}

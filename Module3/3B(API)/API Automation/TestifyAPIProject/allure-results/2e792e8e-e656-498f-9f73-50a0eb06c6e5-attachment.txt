@@ -1,0 +1,16 @@
+{
+  "email": "Shanna_Dicki@yahoo.com",
+  "name": "Stokes, Corwin and Bechtelar",
+  "ips": [
+    {
+      "domain": "monroe.com",
+      "ip": "208.17.1.211",
+      "weight": 50
+    },
+    {
+      "domain": "reyes.biz",
+      "ip": "228.59.148.175",
+      "weight": 50
+    }
+  ]
+}

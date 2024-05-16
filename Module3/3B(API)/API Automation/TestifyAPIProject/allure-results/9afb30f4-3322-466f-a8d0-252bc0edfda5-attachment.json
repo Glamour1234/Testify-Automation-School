@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "api-key": "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",
+    "User-Agent": "PostmanRuntime/7.37.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "d827a843-34e4-4c7c-baad-128b1eb8872a",
+    "Host": "api.sendinblue.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "1322"
+}

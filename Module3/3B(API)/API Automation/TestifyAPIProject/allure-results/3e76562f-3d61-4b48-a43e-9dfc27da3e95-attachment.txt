@@ -1,0 +1,7 @@
+{
+  "name": "Deal: Kansas Helena Tasty",
+  "attributes": {
+    "deal_owner": "663000f069376468b27bc72e",
+    "amount": 12
+  }
+}
