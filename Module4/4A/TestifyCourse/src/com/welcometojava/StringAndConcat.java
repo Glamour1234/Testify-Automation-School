@@ -2,7 +2,7 @@ package com.welcometojava;
 
 import org.jcp.xml.dsig.internal.SignerOutputStream;
 
-public class HelloWorld {
+public class StringAndConcat.java {
     public static void main(String[] args)
     {
         String bird = "hummingBird";
