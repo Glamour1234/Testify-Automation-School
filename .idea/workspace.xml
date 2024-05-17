@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/FirstJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/BasicArithmetic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/CondRelLogStatements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/DataTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/StringOperations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/Strings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/out/production/FirstJava/com/firstJava/helloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/BasicArithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/CondRelLogStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/StringOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4A/FirstJava/src/com/firstJava/helloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4A/FirstJava" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Module4/4A/FirstJava" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,14 +25,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/mac/Documents/WORK/TESTIFY/Testify-Automation-School"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Documents/WORK/TESTIFY/Testify-Automation-School&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Testify-Automation-School" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Testify-Automation-School" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,5 +76,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Module4/4A/FirstJava" />
+      <path value="$PROJECT_DIR$/Module4/4A/IdeaProjects/TestifyProject/src" />
+    </ignored-roots>
   </component>
 </project>
