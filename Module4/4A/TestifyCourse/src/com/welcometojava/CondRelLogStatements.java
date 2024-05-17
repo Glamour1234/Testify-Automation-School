@@ -2,7 +2,7 @@ package com.welcometojava;
 
 import org.w3c.dom.ls.LSOutput;
 
-public class HelloWorld {
+public class CondRelLogStatements {
     public static void main(String[] args) {
         //conditional statement
         int myAge = 30;
