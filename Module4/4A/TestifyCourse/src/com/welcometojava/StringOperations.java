@@ -1,6 +1,6 @@
 package com.welcometojava;
 
-public class HelloWorld {
+public class StringOperations {
     public static void main(String[] args)
     {
         String word = orGANization;
