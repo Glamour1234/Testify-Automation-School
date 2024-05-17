@@ -1,6 +1,6 @@
 package com.welcometojava;
 
-public class HelloWorld {
+public class JavaDataTypes {
     public static void main(String[] args)
     {
         byte age = -127;
