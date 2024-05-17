@@ -1,6 +1,6 @@
 package com.welcometojava;
 
-public class HelloWorld {
+public class BAsicArithmetic {
     public static void main(String[] args) {
         //basic arithmetic
         int age1 = 20;
