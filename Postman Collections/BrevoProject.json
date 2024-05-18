@@ -29735,7 +29735,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f50398a3-d6a2-4996-a692-398a7f6b00ef",
+				"id": "a5b34050-521e-4b02-a455-45e069addd6c",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -29745,25 +29745,13 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "25e6398e-d0c8-435b-8bb1-46301d4f1713",
+				"id": "39ee2343-7a6a-4a0c-a1ff-ae3f5936ffd6",
 				"type": "text/javascript",
+				"packages": {},
 				"exec": [
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"key": "baseUrl",
-			"value": "https://api.sendinblue.com/v3",
-			"type": "string",
-			"disabled": true
-		},
-		{
-			"key": "token",
-			"value": "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",
-			"type": "string"
 		}
 	]
 }
