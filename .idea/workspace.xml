@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module4/4A/TestifyCourse/src/com/welcometojava/task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4A/TestifyCourse/src/com/welcometojava/task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +36,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.welcometojava.task3">
+  <component name="RunManager" selected="Application.StringOperations">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.welcometojava.HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.welcometojava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.welcometojava.StringOperations" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.welcometojava.*" />
@@ -81,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringOperations" />
         <item itemvalue="Application.com.welcometojava.task3" />
         <item itemvalue="Application.task3" />
         <item itemvalue="Application.HelloWorld" />
