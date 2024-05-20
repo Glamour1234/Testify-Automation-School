@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package com.welcometojava;
 
 public class task3 {
     public static void main(String[] args)
