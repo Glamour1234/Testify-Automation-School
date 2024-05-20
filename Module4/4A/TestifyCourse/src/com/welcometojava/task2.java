@@ -19,6 +19,6 @@ public class task2 {
         System.out.println(bigArea);
 
         String word = "I am a woman";
-        System.out.println(word);
+        System.out.println();
     }
 }
