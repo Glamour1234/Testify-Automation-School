@@ -16,7 +16,7 @@ public class CondRelLogStatements {
         } else System.out.println("no true condition");
 
     }
-        System.out.println("this is outside condition");
+
     }
 
-}
+

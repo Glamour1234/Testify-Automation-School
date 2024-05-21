@@ -1,14 +1,12 @@
 package com.welcometojava;
 
-import org.jcp.xml.dsig.internal.SignerOutputStream;
-
 public class StringAndConcat{
     public static void main(String[] args)
     {
         String bird = "hummingBird";
         String adjective = "isBeautiful";
-        Sting newString = bird + adjective;
-        System.out.println(newString);
+        //Sting newString = bird + adjective;
+        //System.out.println(newString);
 
         System.out.println(bird + adjective);
 

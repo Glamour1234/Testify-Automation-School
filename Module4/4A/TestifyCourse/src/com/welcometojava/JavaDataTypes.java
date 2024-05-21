@@ -9,14 +9,14 @@ public class JavaDataTypes {
 
         long soMuchMoney = -21356777;
 
-        float area = 2345555.788;
+        float area = 2345555.788f;
 
         double bigArea = 2435353.78;
 
         System.out.println(bigArea);
 
-        char option = 'm' //char is one character and must be put in single quote
+        char option = 'm'; //char is one character and must be put in single quote
 
-        boolean isAround = false
+        boolean isAround = false;
     }
 }

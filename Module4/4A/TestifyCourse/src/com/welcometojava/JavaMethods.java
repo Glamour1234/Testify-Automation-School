@@ -5,7 +5,7 @@ public class JavaMethods {
     {    //to acccess the properties of a class, we create an object of that class
         JavaMethods methodVar = new JavaMethods();
         methodVar.printName();
-        methodVar.myAge();
+        //methodVar.myAge();
         int userAge = methodVar.ageCalculation(1998,2024);
 
         //The main method is not the only method in java. There are other methods that should exist alongside the main method.

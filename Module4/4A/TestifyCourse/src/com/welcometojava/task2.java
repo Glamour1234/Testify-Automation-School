@@ -12,7 +12,7 @@ public class task2 {
         long soMuchMoney = -21356777;
         System.out.println(soMuchMoney);
 
-        float area = 2345555.788;
+        float area = 2345555.788f;
         System.out.println(area);
 
         double bigArea = 2435353.78;

@@ -8,6 +8,6 @@ public class task3 {
         String concat = (age + desc);
         System.out.println(concat);
 
-        System.out.println(age.concat(desc));
+        //System.out.println(age.concat(desc));
     }
 }
