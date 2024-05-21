@@ -12,12 +12,12 @@ public class ReadingUserInput {
         //next is a function used to read values whether numerical or strings
         short dob = userInput.nextShort();
         short presentYear = 2024;
-        int customersAge = presentYear - dob
+        int customersAge = presentYear - dob;
         System.out.println("You are  " + customersAge + "years old" );
 
         if(customersAge < 18){
             System.out.println("Too young to bet. Bye");
-        }else (customersAge >= 18){
+        }else if (customersAge >= 18){
         System.out.println("You are qualified");
 
     }

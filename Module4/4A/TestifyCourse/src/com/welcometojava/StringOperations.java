@@ -3,7 +3,7 @@ package com.welcometojava;
 public class StringOperations {
     public static void main(String[] args)
     {
-        String word = orGANization;
+        String word = "orGANization";
          //upper and lowercase methods
 
         System.out.println(word.toLowerCase());

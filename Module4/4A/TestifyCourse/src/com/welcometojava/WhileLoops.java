@@ -1,5 +1,7 @@
 package com.welcometojava;
 
+import java.util.Scanner;
+
 public class WhileLoops {
     public static void main(String[] args)
     {
@@ -7,32 +9,31 @@ public class WhileLoops {
         Scanner scanner = new Scanner(System.in);
         String userInput = "";
 
-        While(!userInput.equalsIgnoreCase("exit")){
-        System.out.println("Welcome, type \"exit\" to exit the loop");
-        userInput = scanner.nextln();
+//        While(!userInput.equalsIgnoreCase("exit")){
+//        System.out.println("Welcome, type \"exit\" to exit the loop");
+//        userInput = scanner.nextln();
     }
-
-    //Break and continue statements in while loop
-        while(true){
-            if(!userInput.equalsIgnoreCase("exit")){
-                System.out.println("Welcome, type \"exit\" to exit the loop");
-                userInput = scanner.nextln();
-                continue;
-            }
-            else if(userInput.equalsIgnoreCase("exit")){
-                System.out.println("You are out of the loop");
-                break;
-        }
-            System.out.println("hello");
-
+//
+//    //Break and continue statements in while loop
+//        while(true){
+//            if(!userInput.equalsIgnoreCase("exit")){
+//                System.out.println("Welcome, type \"exit\" to exit the loop");
+//                userInput = scanner.nextln();
+//                continue;
+//            }
+//            else if(userInput.equalsIgnoreCase("exit")){
+//                System.out.println("You are out of the loop");
+//                break;
+//        }
+//            System.out.println("hello");
+//
       // Do while loops
-           do {
-               System.out.println("Welcome! type exit to leave");
-           } while (!userInput.equalsIgnoreCase("exit")) {
-                System.out.println("Welcome, type \"exit\" to exit the loop");
-                userInput = scanner.nextln();
-
-            }
-
-    }
+//           do {
+//               System.out.println("Welcome! type exit to leave");
+//           } while (!userInput.equalsIgnoreCase("exit")) {
+//                System.out.println("Welcome, type \"exit\" to exit the loop");
+//                userInput = scanner.nextln();
+//
+//            }
 }
+
