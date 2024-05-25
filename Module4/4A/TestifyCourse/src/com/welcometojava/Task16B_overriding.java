@@ -1,9 +1,9 @@
 package com.welcometojava;
 
-public class Task16A2_overriding extends Task16A2 {
+public class Task16B_overriding extends Task16B {
 
     public static void main(String[] args) {
-        Task16A2_overriding override = new Task16A2_overriding();
+        Task16B_overriding override = new Task16B_overriding();
         override.playChess("");
     }
 
