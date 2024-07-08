@@ -11,7 +11,7 @@ public class Task2a
         //launch browser
         WebDriver driver = new ChromeDriver();
         //navigates to url
-        driver.get("http://www.google.com");
+        driver.get("Http://www.google.com");
 
 
     }

@@ -13,11 +13,15 @@ public class Task5 {
         driver.manage().window().maximize();
         //navigates to url
         driver.get("https://www.saucedemo.com/");
+        //login
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("login-button")).click();
+        //add to cart
         driver.findElement(By.name("add-to-cart-sauce-labs-backpack")).click();
+        //click on cart
         driver.findElement(By.className("shopping_cart_link")).click();
+        //checkout
         driver.findElement(By.xpath("//button[@data-test= 'checkout']")).click();
 
     }

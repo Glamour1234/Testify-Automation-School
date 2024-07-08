@@ -9,7 +9,7 @@ public class Task2c {
         //launch browser
         WebDriver driver = new ChromeDriver();
         //navigates to url
-        driver.get("https://www.merriam-webster.com/dictionary/site");
+        driver.get("Https://www.merriam-webster.com/dictionary/site");
 
     }
 

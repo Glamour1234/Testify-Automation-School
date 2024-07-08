@@ -11,7 +11,7 @@ public class Task2b {
                 //launch browser
                 WebDriver driver = new ChromeDriver();
                 //navigates to url
-                driver.get("http://www.facebook.com");
+                driver.get("Http://www.facebook.com");
 
 
 
