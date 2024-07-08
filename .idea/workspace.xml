@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/TestNg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task17a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task17b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task17c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task17d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task18addToCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task18checkOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task18loginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/pom/CartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2a.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2b.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2c.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task2c.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4B/P4B/src/main/java/org/example/Task7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
