@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/src/test/java/org/example/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/src/test/java/org/example/OpenAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/src/test/java/org/example/OtherActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module4/4B/Project4B/src/test/java/org/example/Register.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
