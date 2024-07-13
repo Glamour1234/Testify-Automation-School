@@ -5,17 +5,21 @@ class Human:
     leg_count = 4
     can_walk = True
 
-    # def __int__(self):
-    #      self.leg = name
-
     def get_description(self):
         print("This is Human")
 
-man = Human()
-print(man.get_description)
+    def get_leg_count(self):
+        return self.leg_count
 
-# black = Human()
-# print(man.get_description)
+# instantiate the human class
+man = Human()
+
+# invoke the get description method
+man.get_description()
+
+print(man.get_leg_count())
+
+
 
 
 

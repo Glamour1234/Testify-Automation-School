@@ -2,20 +2,19 @@ class Human:
     leg_count = 4
 
     def get_gender(self):
-        return self.leg_count
+        return "Unknown"
 
 
 class Man(Human):
+      pass
 
-    hair = "dark"
-
-    def __int__(self,leg_count):
-        self.leg_count = leg_count
-
+class Woman(Human):
+       pass
 
 
-man1 = Human()
-man1.get_gender()
+man = Man()
+woman = Woman()
+print(man.get_gender())
 
 
 
