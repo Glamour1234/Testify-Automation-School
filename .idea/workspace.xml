@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24f632-0b9e-4bb8-b351-5a0ff2f82067" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module4/4C/Coding Challenge/Task9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4C/Task19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module4/4C/Task20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task21.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task22.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task23.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task25.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module4/4C/Task9.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
